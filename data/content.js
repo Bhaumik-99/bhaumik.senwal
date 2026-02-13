@@ -42,7 +42,7 @@ export const socialLinks = {
   email:
     "https://mail.google.com/mail/?view=cm&fs=1&to=bhaumiksenwal99@gmail.com&su=Portfolio%20Contact&body=Hi%20Bhaumik,%20I%20visited%20your%20portfolio%20and%20would%20like%20to%20connect.",
 
-  resume: "#",
+  resume: '/resume.pdf' ,
 };
 
 // About Me Section
