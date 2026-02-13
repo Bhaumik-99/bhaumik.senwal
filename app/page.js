@@ -193,15 +193,20 @@ export default function Portfolio() {
                 <Rocket className="mr-2 w-5 h-5" />
                 View Projects
               </Button>
-              <a href={socialLinks.resume} download>
-                  <Button 
-                  size="lg" 
-                  variant="outline" 
-                  className="border-blue-500 text-blue-400 hover:bg-blue-500/10">
-                    <Download className="mr-2 w-5 h-5" />
-                    Download Resume
-                    </Button>
-                    </a>
+              <div className="flex gap-4">
+  <a href="/resume.pdf" download>
+    <Button variant="outline">
+      <Download className="mr-2 w-5 h-5" />
+      Download Resume
+    </Button>
+  </a>
+
+  <a href="/resume.pdf" target="_blank">
+    <Button>
+      View Resume
+    </Button>
+  </a>
+</div>
               <Button 
                 size="lg" 
                 variant="outline" 
