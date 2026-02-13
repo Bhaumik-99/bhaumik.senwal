@@ -201,7 +201,13 @@ export default function Portfolio() {
     </Button>
   </a>
 
-       <Button 
+  <a href="/resume.pdf" target="_blank">
+    <Button>
+      View Resume
+    </Button>
+  </a>
+</div>
+              <Button 
                 size="lg" 
                 variant="outline" 
                 className="border-purple-500 text-purple-400 hover:bg-purple-500/10"
