@@ -8,7 +8,7 @@ export const personalInfo = {
   name: 'Bhaumik',
   title: 'AI/ML Engineer & Software Developer',
   tagline: 'Building intelligent systems and scalable applications that push the boundaries of technology',
-  email: 'bhaumik@example.com',
+  email: 'bhaumiksenwal99@gmail.com',
   heroImage: 'https://images.unsplash.com/photo-1606778303077-3780ea8d5420?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA2ODl8MHwxfHNlYXJjaHw0fHxuZXVyYWwlMjBuZXR3b3JrfGVufDB8fHxibHVlfDE3NzA5OTEwMzd8MA&ixlib=rb-4.1.0&q=85',
 }
 
