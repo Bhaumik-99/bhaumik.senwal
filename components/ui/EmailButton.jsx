@@ -7,12 +7,17 @@ export default function EmailButton() {
     "https://mail.google.com/mail/?view=cm&fs=1&to=bhaumiksenwal99@gmail.com&su=Portfolio%20Contact&body=Hi%20Bhaumik,%20I%20visited%20your%20portfolio%20and%20would%20like%20to%20connect.";
 
   const handleClick = (e) => {
-    // Desktop → Gmail web
-    if (window.innerWidth > 768) {
+    const isMobile =
+      /Android|iPhone|iPad|iPod|Opera Mini|IEMobile|WPDesktop/i.test(
+        navigator.userAgent
+      );
+
+    // ✅ Desktop → open Gmail web
+    if (!isMobile) {
       e.preventDefault();
       window.open(gmailLink, "_blank");
     }
-    // Mobile → default mail app opens automatically
+    // ✅ Mobile → allow default mailto behavior (opens Gmail app)
   };
 
   return (
